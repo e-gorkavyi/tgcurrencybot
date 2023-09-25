@@ -7,6 +7,7 @@ import com.eg.tgcurrencybot.dto.ValuteCursOnDate;
 import com.eg.tgcurrencybot.service.CentralRussianBankService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.ws.soap.saaj.SaajSoapMessageFactory;
